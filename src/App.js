@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-  <div className="container mx-auto h-screen">
+    <div className="container mx-auto h-screen">
       <h1 className="text-center text-4xl p-3 tracking-widest">
         GPA CALCULATOR
       </h1>
@@ -124,7 +124,7 @@ function App() {
       {/* TODO display calculated GPA */}
       <h1 className="text -2x1 my-3">GPA :{GPA.toFixed(2)}</h1>
     </div>
-  )
+  );
 }
 
 export default App;
