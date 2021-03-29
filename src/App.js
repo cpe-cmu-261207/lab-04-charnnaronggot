@@ -16,54 +16,54 @@ function App() {
 
   function calculateGPA(cc) {
     // TODO
-    var a_gpa = 0
-    var a_cre  = 0 
-    var cal_gpa = 0
+    var gpa = 0
+    var credit  = 0 
+    var cGpa = 0
     cc.forEach((item) => {
       switch(item.grd){
         case 'A' :
-          a_gpa = 4
-          a_cre += Number(item.crd) 
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 4
+          credit += Number(item.crd) 
+          cGpa += gpa * Number(item.crd)
           break
         case 'B+' :
-          a_gpa = 3.5
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 3.5
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'B' :
-          a_gpa = 3
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 3
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'C+' :
-          a_gpa = 2.5
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 2.5
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'C' :
-          a_gpa = 2
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 2
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'D+' :
-          a_gpa = 1.5
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 1.5
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'D' :
-          a_gpa = 1
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 1
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
         case 'F' :
-          a_gpa = 0
-          a_cre += Number(item.crd)
-          cal_gpa += a_gpa * Number(item.crd)
+          gpa = 0
+          credit += Number(item.crd)
+          cGpa += gpa * Number(item.crd)
           break
       }  
     });
-    setGPA(cal_gpa / a_cre) 
+    setGPA(cGpa / credit) 
   }
 
   /**
