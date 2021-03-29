@@ -2,67 +2,18 @@
 body {
   font-family: 'Prompt', sans-serif;
   font-size: 20px;
-  background-color:azure;
+  background-color:rgb(255, 140, 203);
 }
 button{
-  background-color:#D9F6AA;
+  background-color:#8a6fff;
   padding: 8px;
   margin: 10px;
   border-radius: 30px;
 }
 button:hover{
-  background-color:#A5A3F4;
-}
-.btn{
-  border-radius: 20px;
-  padding-left: 13px;
-  padding-right: 13px;
+  background-color:#3e3bff;
 }
 
 
-#name ,#grade,#w{
-  width: 200px;
-  font-size: 20px;
-  border-radius: 8px;
-  padding: 5px;
-}
-#form {
-  border-collapse:separate;
-}
 
-#form td, th {
-  width: 1%;
-  padding: 7px;
-}
 
-#form td {
-  background-color: #A7E8DB;
-}
-
-#form th {
-  background-color:#ca7e1a;
-  border-top: none;
-}
-#form th:first-child , td:first-child{
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-#form th:last-child , td:nth-child(3){
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-#form td:last-child {
-   border-left: none;
-   background-color:rgb(99, 28, 81);
-}
-.CourseCard{
-  margin: 13px;
-  background-color:#e40dd9;
-  border-radius: 8px;
-  font-family: 'Prompt', sans-serif;
-}
-#CC td{
-  width: 100%;
-  padding-left: 10px;
-}
